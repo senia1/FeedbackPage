@@ -19,7 +19,7 @@ namespace Task3.Models
         [Required(ErrorMessage = "Вам нужно ввести электронную почту")]
         public string Email { get; set; }
         [Display(Name = "Введите ваше сообщение")]
-        [StringLength(30, ErrorMessage="Текст не менее 30 символов")]
+        [StringLength(30, ErrorMessage="Текст менее 30 символов")]
         [Required(ErrorMessage = "Вам нужно ввести сообщение")]
         public string Message { get; set; }
     }
