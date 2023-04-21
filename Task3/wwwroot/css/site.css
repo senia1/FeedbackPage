@@ -86,12 +86,12 @@ main input[type="sumbit"]
     margin-top:7px;
     background:#ff6a00;
     font-weight:bold;
-    color: #833904;
+    color: #ffa600;
     cursor:pointer;
 }
 main input[type="sumbit"]:hover
 {
-    background: #d96614;
+    background: #ffa500;
 }
 
 main form span
